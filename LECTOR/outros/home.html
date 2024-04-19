@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home - lector</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<body>
+    <header id="header">
+        <div class="container-fluid" id="maindiv">
+            <img src="imagens/icons/raven.png" alt="corvo icone" id="corvo">
+            <h1 id="lector">lector</h1>
+            <a href="/login.html" id="entrar">entrar</a>
+        </div>
+
+        <div class="container-fluid" id="bodydiv">
+            <div id="textodiv">
+                <img src="imagens/home/crow.png" alt="corvo icone" id="corvoicone">
+                <p id="texto">"A leitura é a rebelião contra a mediocridade e o combustível da revolução intelectual."
+                </p>
+            </div>
+
+            <p id="indicacoesp">✩ Indicações de Leitura</p>
+
+            <div id="indicacoesdiv">
+
+                <div class="livrosmaindiv">
+                    <div class="livro">
+                        <img src="imagens/capalivro/1984.jpg" alt="1984" id="1984" class="capaimg"
+                            onmouseover="trocarImagem('1984', 'imagens/autores/george-orwell.webp')"
+                            onmouseout="restaurarImagem('1984', 'imagens/capalivro/1984.jpg')">
+                        <p>1984</p>
+                        <pre>George Orwell</pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/apanhador.jpg" alt="O Apanhador no Campo de Centeio" id="campo"
+                            class="capaimg" onmouseover="trocarImagem('campo', 'imagens/autores/salinger.webp')"
+                            onmouseout="restaurarImagem('campo', 'imagens/capalivro/apanhador.jpg')">
+                        <p>O Apanhador no Campo de Centeio</p>
+                        <pre>J.D. Salinger </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/bichos.jpg" alt="Revolução dos Bichos" id="bichos" class="capaimg"
+                            onmouseover="trocarImagem('bichos', 'imagens/autores/george-orwell.webp')"
+                            onmouseout="restaurarImagem('bichos', 'imagens/capalivro/bichos.jpg')">
+                        <p>Revolução dos Bichos</p>
+                        <pre> George Orwell </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/demian.jpg" alt="Demian" id="demian" class="capaimg"
+                            onmouseover="trocarImagem('demian', 'imagens/autores/herman.webp')"
+                            onmouseout="restaurarImagem('demian', 'imagens/capalivro/demian.jpg')">
+                        <p>Demian</p>
+                        <pre> Herman Hesse </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/sertao.jpg" alt="Grande Sertão: Veredas" id="sertao" class="capaimg"
+                            onmouseover="trocarImagem('sertao', 'imagens/autores/rosa.jpg')"
+                            onmouseout="restaurarImagem('sertao', 'imagens/capalivro/sertao.jpg')">
+                        <p>Grande Sertão: Veredas</p>
+                        <pre> João Guimarães Rosa  </pre>
+                    </div>
+                </div>
+
+                <div class="livrosmaindiv">
+                    <div class="livro">
+                        <img src="imagens/capalivro/carneiros.jpg" alt="Caçando carneiros" id="carneiros" class="capaimg"
+                            onmouseover="trocarImagem('carneiros', 'imagens/autores/haruki.webp')"
+                            onmouseout="restaurarImagem('carneiros', 'imagens/capalivro/carneiros.jpg')">
+                        <p>Caçando carneiros</p>
+                        <pre> Haruki Murakami </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/velho.jpeg" alt="O Velho e o Mar" id="velho" class="capaimg"
+                            onmouseover="trocarImagem('velho', 'imagens/autores/ernest.webp')"
+                            onmouseout="restaurarImagem('velho', 'imagens/capalivro/velho.jpeg')">
+                        <p>O Velho e o Mar</p>
+                        <pre>  Ernest Hemingway  </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/irmao.jpg" alt="Grande Irmão" id="irmao" class="capaimg"
+                            onmouseover="trocarImagem('irmao', 'imagens/autores/lionel.jpg')"
+                            onmouseout="restaurarImagem('irmao', 'imagens/capalivro/irmao.jpg')">
+                        <p>Grande Irmão</p>
+                        <pre> Lionel Shriver </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/medico.jpg" alt="O Médico e o Monstro" id="medico" class="capaimg"
+                            onmouseover="trocarImagem('medico', 'imagens/autores/louis.jpg')"
+                            onmouseout="restaurarImagem('medico', 'imagens/capalivro/medico.jpg')">
+                        <p id="titulo">O Médico e o Monstro</p>
+                        <pre>  Robert Louis Stevenson  </pre>
+                    </div>
+
+                    <div class="livro">
+                        <img src="imagens/capalivro/alquimista.jpg" alt="O Alquimista" id="alquimista" class="capaimg"
+                            onmouseover="trocarImagem('alquimista', 'imagens/autores/paulo.jpg')"
+                            onmouseout="restaurarImagem('alquimista', 'imagens/capalivro/alquimista.jpg')">
+                        <p>O Alquimista</p>
+                        <pre> Paulo Coelho  </pre>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="funcoesdivmain">
+                <p id="funcoesp">Como funciona?</p>
+                <p>Com o Lector, você terá uma ferramenta poderosa para organizar sua coleção de livros de forma
+                    eficiente e simplificada. Confira algumas das funcionalidades incríveis que o Lector oferece:</p>
+                <div id="funcoesdiv">
+                    <div class="funcao">
+                        <img src="imagens/icons/envio.png" alt="icone de livro">
+                        <h3>Adicionar Livros</h3>
+                        <p>Comece a construir sua própria biblioteca virtual adicionando seus livros favoritos. Insira o
+                            título, autor e uma breve descrição para manter um registro organizado de todas as suas
+                            leituras.
+                        </p>
+                    </div>
+                    <div class="funcao">
+                        <img src="imagens/icons/caixas.png" alt="icone de livro">
+                        <h3>Organizar por Categorias</h3>
+                        <p>Mantenha seus livros organizados por categorias personalizadas. Classifique por gênero, autor
+                            ou estado de leitura para encontrar facilmente os livros que deseja ler ou reler.
+                        </p>
+                    </div>
+                    <div class="funcao">
+                        <img src="imagens/icons/estrelou.png" alt="icone de livro">
+                        <h3>Avaliar Livros</h3>
+                        <p>Atribua uma classificação e deixe comentários para lembrar suas impressões sobre a história,
+                            os personagens ou qualquer outro aspecto que tenha chamado sua atenção.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="rodape">
+                <h1 id="lectorrodape">lector</h1>
+                <p>"Liberte seu mundo de histórias com Lector: sua chave para a organização literária perfeita!"</p>
+                <div id="redesdiv">
+                    <img src="imagens/redes/facebook.png" alt="icone facebook">
+                    <img src="imagens/redes/instagram.png" alt="icone instagram">
+                    <img src="imagens/redes/twitter-alt-circle.png" alt="icone twitter">
+                </div>
+
+                <pre>© 2024 Lector, All Rights Reserved</pre>
+            </div>
+
+        </div>
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+  
+
+<script>
+    var timeout; 
+
+    function trocarImagem(idImagem, novaImagem) {
+        clearTimeout(timeout); 
+        timeout = setTimeout(function() {
+            var imagem = document.getElementById(idImagem);
+            imagem.src = novaImagem;
+        }, 100); 
+    }
+
+    function restaurarImagem(idImagem, imagemOriginal) {
+        clearTimeout(timeout);
+        timeout = setTimeout(function() {
+            var imagem = document.getElementById(idImagem);
+            imagem.src = imagemOriginal;
+        }, 100); 
+    }
+</script>
+
+
+
+
+</body>
+
+</html>

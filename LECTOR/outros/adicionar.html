@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="adicionar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Livro</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container-fluid" id="maindiv">
+            <img src="imagens/icons/raven.png" alt="corvo icone" id="corvo">
+            <h1 id="lector">lector</h1>
+            <a href="#" id="sair">sair</a>
+        </div>
+    </header>
+
+
+    <div id="bodydiv" class="container">
+        <h2>Adicionar Livro</h2>
+     
+        <form id="formulario-adicionar" method="POST" action="http://localhost:3000/livros_cadastrados">
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required><br>
+
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required><br>
+
+            <label for="genero">Gênero:</label>
+            <input type="text" id="genero" name="genero" required><br>
+
+            <label for="ano_pub">Ano de Publicação:</label>
+            <input type="date" id="ano_pub" name="ano_pub" required><br>
+
+            <label for="sinopse">Sinopse:</label>
+            <input type="text" id="sinopse" name="sinopse" required><br>
+
+            <button type="submit">Adicionar Livro</button>
+        </form>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

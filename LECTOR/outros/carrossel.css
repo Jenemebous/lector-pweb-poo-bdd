@@ -1,0 +1,18 @@
+#carroseldiv{
+    justify-content: center;
+}
+#carrossel{
+    width: 800px;
+    height: 800px;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+    
+
+}
+
+
+
+.carousel-item {
+    transition: opacity 3s ease; 
+}
